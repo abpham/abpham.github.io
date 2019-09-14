@@ -11,6 +11,10 @@
 	#third {
 		background-color: #6b86e5;
 	}
+	#middleImage {
+		height: 513px;
+		/* there was no other way to make the middle picture fit that I could find so far lol */
+	}
 </style>
 
 <!DOCTYPE html>
@@ -66,19 +70,22 @@
 
     <!-- blog style posts -->
     <div id = "first" class = "post">
-        <h1>Post 1</h1>
+		<h1>UF Exchange at HKUST</h1>
         <p>
-            	<button type="button" class="btn btn-outline-light" onclick="smoothScroll(document.getElementById('second'))">next</button>
+            <button type="button" class="btn btn-outline-light" onclick="smoothScroll(document.getElementById('second'))">next</button>
         </p>
     	<p id = "paragraph-post">
-        To be filled in later!
-    	</p>
+		This past summer (summer of 2019) I studied abroad in Hong Kong, at the Hong Kong University of Science and Technology on a UF Exchange program! It was an incredible experience, and so fulfilling to travel independently while learning about a different culture and trying so many different foods.
+		</p>
+		<img src="img/brucelee.jpg" class="img-fluid" alt="brucelee">
+		<img id="middleImage" src="img/pinebuns.jpg" class="img-fluid" alt="pineapple bun making">
+		<img src="img/buddha.jpg" class="img-fluid" alt="big buddha">
     </div>
 
     <div id = "second" class = "post">
         <h1>Post 2</h1>
         <p>
-            	<button type="button" class="btn btn-outline-light" onclick="smoothScroll(document.getElementById('third'))">next</button>
+            <button type="button" class="btn btn-outline-light" onclick="smoothScroll(document.getElementById('third'))">next</button>
         </p>
     	<p id = "paragraph-post">
         To be filled in later!
