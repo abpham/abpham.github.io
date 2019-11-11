@@ -4,6 +4,7 @@
 	}
 	#first {
 		background-color: #b0bff2;
+		overflow: hidden;
 	}
 	#second {
 		background-color: #8ea3ed;
@@ -11,9 +12,9 @@
 	#third {
 		background-color: #6b86e5;
 	}
-	#middleImage {
-		height: 513px;
-		/* there was no other way to make the middle picture fit that I could find so far lol */
+	img {
+		height: auto;
+		max-width: 100%;
 	}
 </style>
 
@@ -79,13 +80,13 @@
 		</p>
 		<div class="row">
 			<div class="col-sm-4">
-				<img src="img/brucelee.jpg" class="img-fluid" alt="brucelee">
+				<img src="img/brucelee.jpg" class="img-responsive" alt="brucelee">
 			</div>
 			<div class="col-sm-4">
-				<img id="middleImage" src="img/pinebuns.jpg" class="img-fluid" alt="pineapple bun making">
+				<img id="middleImage" src="img/pinebuns.jpg" class="img-responsive" alt="pineapple bun making">
 			</div>
 			<div class="col-sm-4">
-					<img src="img/buddha.jpg" class="img-fluid" alt="big buddha">
+				<img src="img/buddha.jpg" class="img-responsive" alt="big buddha">
 			</div>
 		</div>
     </div>
