@@ -8,6 +8,7 @@
 	}
 	#second {
 		background-color: #8ea3ed;
+		overflow: hidden;
 	}
 	#third {
 		background-color: #6b86e5;
@@ -71,40 +72,50 @@
 
 	<!-- blog style posts -->
     <div id = "first" class = "post">
-		<h1>UF Exchange at HKUST</h1>
+        <h1>Remote Internship at Microsoft</h1>
         <p>
             <button type="button" class="btn btn-outline-light" onclick="smoothScroll(document.getElementById('second'))">next</button>
         </p>
     	<p id = "paragraph-post">
-		In the summer of 2019, I studied abroad in Hong Kong, at the Hong Kong University of Science and Technology on a UF Exchange program! It was an incredible experience, and so fulfilling to travel independently while learning about a different culture and trying so many different foods.
+		This past summer I interned remotely with Microsoft in CSE (Commercial Software Engineering). I had an incredible experience despite the virtual circumstances and learned so much while working with my wonderful team.
+		I have also been given the opportunity to start living in the PNW next year and work for Microsoft as a FTE after I graduate!
 		</p>
-		<div class="row">
-			<div class="col-sm-4">
-				<img src="img/brucelee.jpg" class="img-responsive" alt="brucelee">
-			</div>
-			<div class="col-sm-4">
-				<img id="middleImage" src="img/pinebuns.jpg" class="img-responsive" alt="pineapple bun making">
-			</div>
-			<div class="col-sm-4">
-				<img src="img/buddha.jpg" class="img-responsive" alt="big buddha">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm">
+					<img src="img/pike.jpg" class="img-fluid" alt="pike place market">
+				</div>
 			</div>
 		</div>
     </div>
 
     <div id = "second" class = "post">
-        <h1>Post 2</h1>
+		<h1>UF Exchange at HKUST</h1>
         <p>
             <button type="button" class="btn btn-outline-light" onclick="smoothScroll(document.getElementById('third'))">next</button>
         </p>
     	<p id = "paragraph-post">
-        To be filled in later!
-    	</p>
+		In the summer of 2019, I studied abroad in Hong Kong, at the Hong Kong University of Science and Technology on a UF Exchange program! It was an incredible experience, and so fulfilling to travel independently while learning about a different culture and trying so many different foods.
+		</p>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<img src="img/brucelee.jpg" class="img-fluid" alt="brucelee">
+				</div>
+				<div class="col-sm-4">
+					<img id="middleImage" src="img/pinebuns.jpg" class="img-fluid" alt="pineapple bun making">
+				</div>
+				<div class="col-sm-4">
+					<img src="img/buddha.jpg" class="img-fluid" alt="big buddha">
+				</div>
+			</div>
+		</div>
     </div>
     
     <div id = "third" class = "post">
         <h1>Post 3</h1>
         <p>
-            	<button type="button" class="btn btn-outline-light" onclick="smoothScroll(document.getElementById('navbarNavDropdown'))">back</button>
+            <button type="button" class="btn btn-outline-light" onclick="smoothScroll(document.getElementById('navbarNavDropdown'))">back</button>
         </p>
     	<p id = "paragraph-post">
         To be filled in later!

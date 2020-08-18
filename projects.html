@@ -1,6 +1,12 @@
 <style>
   body {
     background-color: #b0bff2;
+    padding-top: 70px;
+  }
+  p {
+    color: black;
+    font-family: 'Work-Sans', sans-serif;
+    padding-top: 15px;
   }
 </style>
 
@@ -43,27 +49,43 @@
     </nav>
 
     <!-- begin bootstrap card components -->
-    <div class="row">
-      <div class="col-sm-3">
+    <div class="container">
+      <div class="row justify-content-center">
+        <h2>Project Portfolio</h2>
+        <p>These are projects that I have open as public repositories on my GitHub. Feel free to peruse! A lot of them are class projects but I am working on some personal/side projects as well.
+          <br><br> To visit my GitHub profile, you can go <a href="https://github.com/abpham">here!</a>
+        </p>
+        <div class="col-sm">
           <div class="card">
-              <img class="card-img-top" src="img/table.jpg" alt="Card image cap">
+            <div class="card-header">C++</div>
                 <div class="card-body">
                   <h5 class="card-title">Lexical Analysis</h5>
                   <p class="card-text">A COP3503 assignment with pseudocode string parsing and processing.</p>
-                  <a href="https://github.com/abpham/lexical-analysis" class="btn btn-primary">Visit on Github</a>
+                  <a href="https://github.com/abpham/lexical-analysis" class="card-link">Visit on Github</a>
                 </div>
             </div>
-      </div>
-      <div class="col-sm-3">
+        </div>
+        <div class="col-sm">
+            <div class="card">
+              <div class="card-header">HTML, CSS, Javascript</div>
+                  <div class="card-body">
+                    <h5 class="card-title">Bodega</h5>
+                    <p class="card-text">A CEN3031 Final Project web application built for The Bodega at UF's Innovation Hub.</p>
+                    <a href="https://github.com/swegroup3/final_project" class="card-link">Visit on Github</a>
+                  </div>
+            </div>
+        </div>
+        <div class="col-sm">
           <div class="card">
-              <img class="card-img-top" src="img/table.jpg" alt="Card image cap">
+            <div class="card-header">C++</div>
                 <div class="card-body">
-                  <h5 class="card-title">Bodega</h5>
-                  <p class="card-text">A CEN3031 Final Project web application built for The Bodega at UF's Innovation Hub.</p>
-                  <a href="https://github.com/swegroup3/final_project" class="btn btn-primary">Visit on Github</a>
+                  <h5 class="card-title">Magic Squares</h5>
+                  <p class="card-text">A COP3503 assignment where input of N creates an NxN magic square.</p>
+                  <a href="https://github.com/abpham/magic-squares" class="card-link">Visit on Github</a>
                 </div>
           </div>
       </div>
+        </div>
     </div>
 
 </body>
